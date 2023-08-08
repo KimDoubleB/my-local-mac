@@ -38,6 +38,8 @@
   - Plugins 설치 (Lombok, …)
   - Theme - High Contrast (고대비) 설정
 - Iterm
+  - Oh-my-zsh 설치
+    - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
   - Autojump, zsh-autosuggestions, zsh-syntax-highlighting, zsh-completions, oh-my-zsh 설치
     - ```bash
       brew install autojump
@@ -54,7 +56,8 @@
       
       plugins=(
           [Plugins...]
-          
+
+          autojump
           zsh-syntax-highlighting
           zsh-completions
           zsh-autosuggestions
